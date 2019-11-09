@@ -18,7 +18,7 @@ public class CountSteps2Ways{
   
   
   
-  //recurseSoln - worst: O(n^2)
+  //recurseSoln - worst: O(N^2)
   public static int recurseSolution(int n){
     return helper(1,1,2,n);
   }
